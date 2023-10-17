@@ -547,9 +547,10 @@ span {
 }
 
 .portfolio {
-    min-height: auto;
+    height: 80vh;
     padding-bottom: 7rem;
 }
+
 
 .portfolio h2 {
     display: inline-block;
@@ -812,6 +813,10 @@ footer .animate.scroll {
     .navbar.active a {
         transform: translateX(0);
         transition-delay: .25s;
+    }
+
+    .portfolio {
+        height: auto;
     }
 
     .portfolio-item {
